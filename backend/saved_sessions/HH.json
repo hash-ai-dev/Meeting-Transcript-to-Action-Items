@@ -1,0 +1,51 @@
+{
+  "title": "HH",
+  "transcript": [
+    "Alex: Thanks everyone for joining. We\u2019re getting close to the beta release, so I want to make sure a few loose ends are moving forward.\nAlex: Maya, the dashboard still feels a bit rough around the edges. It would really help if we had something more polished to show stakeholders before the review next week.\n\nMaya: Yeah, I\u2019ve been meaning to refine the layout and color spacing. I can prioritize that.\n\nAlex: That would be great. Especially the analytics view\u2014it\u2019s the one people notice first.\n\nAlex: Jordan, we\u2019ve had a couple of conversations about performance lately. If the API response times could be tightened up before the end of the month, it would save us a lot of follow-up work later.\n\nJordan: Makes sense. I was already looking into caching strategies, so I\u2019ll continue down that path.\n\nAlex: Perfect. No rush for today, just something we don\u2019t want to drag into next sprint.\n\nAlex: Priya, once the design updates start landing, it\u2019d be nice if the frontend reflected those changes fairly quickly. The marketing team is hoping to click through something realistic in about ten days or so.\n\nPriya: Okay, I\u2019ll keep my schedule flexible and align with Maya\u2019s updates.\n\nAlex: Awesome. Even partial updates would help for the demo.\n\nAlex: Sam, we haven\u2019t really talked about testing yet, but as features settle, it\u2019d be reassuring to know we\u2019re not accumulating too much risk. If you could start outlining key test cases sometime next week, that would put us in a good position.\n\nSam: Sure, I can start with the core user flows and expand from there.\n\nAlex: Sounds good. We don\u2019t need full coverage immediately\u2014just enough to catch obvious issues early.\n\nAlex: Alright, I think that covers the main points. Let\u2019s sync again mid-next week and see how things are shaping up.",
+    "Harish to deploy the new frontend by Friday 5 PM. Sarah needs to prepare the marketing deck for the Q3 review. Note: The budget for the project has been approved at $50k."
+  ],
+  "action_items": [
+    {
+      "task": "Refine the dashboard layout and color spacing",
+      "owner": "Maya",
+      "deadline": "Next week",
+      "priority": "High",
+      "done": false
+    },
+    {
+      "task": "Tighten up API response times using caching strategies",
+      "owner": "Jordan",
+      "deadline": "End of the month",
+      "priority": "Medium",
+      "done": false
+    },
+    {
+      "task": "Outline key test cases for core user flows",
+      "owner": "Sam",
+      "deadline": "Next week",
+      "priority": "Low",
+      "done": false
+    },
+    {
+      "task": "Deploy the new frontend by Friday 5 PM",
+      "owner": "Harish",
+      "deadline": "Friday 5 PM",
+      "priority": "High",
+      "done": false
+    },
+    {
+      "task": "Prepare the marketing deck for the Q3 review",
+      "owner": "Sarah",
+      "deadline": "No Deadline",
+      "priority": "Medium",
+      "done": false
+    }
+  ],
+  "important_notes": [
+    "Stakeholders want to see a polished dashboard before review next week.",
+    "Tightening API response times will save follow-up work later.",
+    "The budget for the project has been approved at $50k.",
+    "Tightening up API response times would save us a lot of follow-up work later."
+  ],
+  "timestamp": 1766647475.6094804
+}

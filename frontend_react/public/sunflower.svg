@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 200">
+  <!-- Stem -->
+  <path d="M50 180 Q55 120 50 60" stroke="#4a7c59" stroke-width="4" fill="none"/>
+  <path d="M50 140 Q70 130 80 140" stroke="#4a7c59" stroke-width="2" fill="#6a9c79"/>
+  <path d="M50 100 Q30 90 20 100" stroke="#4a7c59" stroke-width="2" fill="#6a9c79"/>
+  
+  <!-- Flower Petals -->
+  <g transform="translate(50,50)">
+    <circle cx="0" cy="0" r="15" fill="#4d3b2a" /> <!-- Center -->
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFD700" transform="rotate(0) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFC107" transform="rotate(22.5) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFD700" transform="rotate(45) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFC107" transform="rotate(67.5) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFD700" transform="rotate(90) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFC107" transform="rotate(112.5) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFD700" transform="rotate(135) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFC107" transform="rotate(157.5) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFD700" transform="rotate(180) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFC107" transform="rotate(202.5) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFD700" transform="rotate(225) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFC107" transform="rotate(247.5) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFD700" transform="rotate(270) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFC107" transform="rotate(292.5) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFD700" transform="rotate(315) translate(0,-10)" />
+    <path d="M0 -30 L5 -15 L0 0 L-5 -15 Z" fill="#FFC107" transform="rotate(337.5) translate(0,-10)" />
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActionExtract AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <span class="logo-icon">🧠</span> ActionExtract <span class="highlight">AI</span>
+            </div>
+            <div class="header-controls">
+                <select id="loadSessionSelect" class="session-select">
+                    <option value="">Load Session...</option>
+                </select>
+                <div class="status-badge" id="backendStatus">Connecting...</div>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <main class="grid-layout">
+
+            <!-- Left Column: Input -->
+            <section class="panel input-panel">
+                <h2><span class="icon">📝</span> Meeting Notes & Transcript</h2>
+                <div class="input-wrapper">
+                    <textarea id="transcriptInput"
+                        placeholder="Paste your meeting conversation or notes here...&#10;Example: 'The team decided to delay the launch. Harish needs to fix the server by Friday.'"></textarea>
+                </div>
+                <div class="button-group">
+                    <button id="analyzeBtn" class="btn-primary">
+                        <span class="btn-text">Analyze Text</span>
+                        <div class="loader"></div>
+                    </button>
+                    <button id="saveBtn" class="btn-save" style="display: none;">💾 Save Session</button>
+                    <button id="resetBtn" class="btn-secondary">Reset Session</button>
+                </div>
+
+                <div class="transcript-log">
+                    <h3>History Log</h3>
+                    <div id="transcriptHistory" class="log-content">
+                        <!-- History items will appear here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Column: Results -->
+            <section class="panel results-panel">
+
+                <!-- Action Items -->
+                <div class="results-section">
+                    <h2><span class="icon">⚡</span> Action Items</h2>
+                    <div id="actionItemsList" class="cards-container">
+                        <div class="empty-state">No action items detected yet.</div>
+                    </div>
+                </div>
+
+                <!-- Important Notes -->
+                <div class="results-section">
+                    <h2><span class="icon">📌</span> Important Notes</h2>
+                    <div id="notesList" class="cards-container">
+                        <div class="empty-state">No notes recorded.</div>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

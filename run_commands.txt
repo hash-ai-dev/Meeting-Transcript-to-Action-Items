@@ -1,0 +1,50 @@
+# INSTRUCTIONS TO RUN THE PROJECT
+# You need to open TWO separate terminal windows.
+
+# ==========================================
+# TERMINAL 1: BACKEND (Flask API)
+# ==========================================
+# Copy and paste these commands exactly:
+
+cd backend
+python app.py
+
+
+# ==========================================
+# TERMINAL 2: FRONTEND (React App)
+# ==========================================
+# Open a NEW terminal (do not close the first one).
+# Copy and paste these commands exactly:
+
+cd frontend_react
+npm install
+npm run dev
+
+
+Example Transcript:
+"Alex: Thanks everyone for joining. We’re getting close to the beta release, so I want to make sure a few loose ends are moving forward.
+Alex: Maya, the dashboard still feels a bit rough around the edges. It would really help if we had something more polished to show stakeholders before the review next week.
+
+Maya: Yeah, I’ve been meaning to refine the layout and color spacing. I can prioritize that.
+
+Alex: That would be great. Especially the analytics view—it’s the one people notice first.
+
+Alex: Jordan, we’ve had a couple of conversations about performance lately. If the API response times could be tightened up before the end of the month, it would save us a lot of follow-up work later.
+
+Jordan: Makes sense. I was already looking into caching strategies, so I’ll continue down that path.
+
+Alex: Perfect. No rush for today, just something we don’t want to drag into next sprint.
+
+Alex: Priya, once the design updates start landing, it’d be nice if the frontend reflected those changes fairly quickly. The marketing team is hoping to click through something realistic in about ten days or so.
+
+Priya: Okay, I’ll keep my schedule flexible and align with Maya’s updates.
+
+Alex: Awesome. Even partial updates would help for the demo.
+
+Alex: Sam, we haven’t really talked about testing yet, but as features settle, it’d be reassuring to know we’re not accumulating too much risk. If you could start outlining key test cases sometime next week, that would put us in a good position.
+
+Sam: Sure, I can start with the core user flows and expand from there.
+
+Alex: Sounds good. We don’t need full coverage immediately—just enough to catch obvious issues early.
+
+Alex: Alright, I think that covers the main points. Let’s sync again mid-next week and see how things are shaping up."

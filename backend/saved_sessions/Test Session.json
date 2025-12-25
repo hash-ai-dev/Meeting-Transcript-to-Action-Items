@@ -1,0 +1,17 @@
+{
+  "title": "Test Session",
+  "transcript": [
+    "John needs to complete the report by Friday. Sarah should schedule the meeting."
+  ],
+  "action_items": [
+    {
+      "task": "John needs to complete the report",
+      "owner": "Sarah",
+      "deadline": "Friday",
+      "priority": "High",
+      "done": false
+    }
+  ],
+  "important_notes": [],
+  "timestamp": 1766164279.9563284
+}

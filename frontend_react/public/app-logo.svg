@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Document Base -->
+  <rect x="25" y="15" width="50" height="70" rx="4" fill="#FFFFFF" stroke="#1E293B" stroke-width="2" />
+  
+  <!-- Lines that turn into checks (Animated) -->
+  <g>
+    <!-- Line 1 -->
+    <path d="M35 30 L65 30" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round">
+       <animate attributeName="d" 
+         values="M35 30 L65 30;M35 30 L45 40 L65 25" 
+         dur="3s" repeatCount="indefinite" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" />
+       <animate attributeName="stroke"
+         values="#CBD5E1;#10B981;#CBD5E1"
+         dur="3s" repeatCount="indefinite" />
+    </path>
+    
+    <!-- Line 2 -->
+    <path d="M35 45 L65 45" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round">
+       <animate attributeName="d" 
+         values="M35 45 L65 45;M35 45 L45 55 L65 40;M35 45 L65 45" 
+         begin="0.5s" dur="3s" repeatCount="indefinite" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+        <animate attributeName="stroke"
+         values="#CBD5E1;#10B981;#CBD5E1"
+         begin="0.5s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Line 3 -->
+    <path d="M35 60 L65 60" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round">
+       <animate attributeName="d" 
+         values="M35 60 L65 60;M35 60 L45 70 L65 55;M35 60 L65 60" 
+         begin="1s" dur="3s" repeatCount="indefinite" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+        <animate attributeName="stroke"
+         values="#CBD5E1;#10B981;#CBD5E1"
+         begin="1s" dur="3s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Brain/Gear Overlay -->
+  <circle cx="75" cy="75" r="15" fill="url(#grad)" stroke="white" stroke-width="2">
+     <animateTransform attributeName="transform" type="scale"
+      values="1;1.1;1" dur="2s" repeatCount="indefinite"
+      additive="sum"
+      cx="75" cy="75" />
+  </circle>
+  <path d="M70 75 L80 75 M75 70 L75 80" stroke="white" stroke-width="3" stroke-linecap="round">
+     <animateTransform attributeName="transform" type="rotate"
+      from="0 75 75" to="360 75 75" dur="10s" repeatCount="indefinite" />
+  </path>
+</svg>
